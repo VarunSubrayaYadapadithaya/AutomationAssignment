@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HeadOutAssignment" time="74" tests="4" failures="0" errors="0">
+   <testsuite name="HeadOutAssignment" tests="4" failures="0" errors="0" time="74" timestamp="2019-03-10 18:42:26" hostname="VarunSubrayaYadapadithaya - localhost" id="Test Suites/HeadOutAssignment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/VarunSubrayaYadapadithaya/Desktop/Varun/Work/eclipse workspaces/HeadoutAssignment/HeadoutAssignment/Reports/HeadOutAssignment/20190310_184223"/>
+         <property name="logFiles" value="/Users/VarunSubrayaYadapadithaya/Desktop/Varun/Work/eclipse workspaces/HeadoutAssignment/HeadoutAssignment/Reports/HeadOutAssignment/20190310_184223/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VarunSubrayaYadapadithaya - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="eef498ab823c0dcaecb6be5a139b71b8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/001-Navigate_to_URL" classname="Test Cases/001-Navigate_to_URL" status="PASSED">
+         <system-out><![CDATA[2019-03-10 18:42:26 - [TEST_CASE][PASSED] - Test Cases/001-Navigate_to_URL: Test Cases/001-Navigate_to_URL
+
+2019-03-10 18:42:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-10 18:42:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-10 18:42:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-10 18:42:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-10 18:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-10 18:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-10 18:42:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.london-theater-tickets.com/' successfully
+
+2019-03-10 18:42:37 - [MESSAGE][PASSED] - Navigate to 'https://www.london-theater-tickets.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002-SearchandBookShow" classname="Test Cases/002-SearchandBookShow" status="PASSED">
+         <system-out><![CDATA[2019-03-10 18:42:39 - [TEST_CASE][PASSED] - Test Cases/002-SearchandBookShow: Test Cases/002-SearchandBookShow
+
+2019-03-10 18:42:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar' is visible
+
+2019-03-10 18:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar' is visible
+
+2019-03-10 18:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), ShowName): Text 'The Simon and Garfunkel Story' is set on object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:42:41 - [MESSAGE][PASSED] - Text 'The Simon and Garfunkel Story' is set on object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:42:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:42:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:42:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-10 18:42:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-10 18:42:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story' is visible
+
+2019-03-10 18:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story' is visible
+
+2019-03-10 18:42:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is visible
+
+2019-03-10 18:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is visible
+
+2019-03-10 18:42:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clickable
+
+2019-03-10 18:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clickable
+
+2019-03-10 18:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clicked on
+
+2019-03-10 18:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clicked on
+
+2019-03-10 18:42:44 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-03-10 18:42:44 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-03-10 18:42:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is present
+
+2019-03-10 18:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is present
+
+2019-03-10 18:42:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30): Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' successfully
+
+2019-03-10 18:42:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' successfully
+
+2019-03-10 18:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is clicked on
+
+2019-03-10 18:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is clicked on
+
+2019-03-10 18:42:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-10 18:42:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 18:42:51 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader"), 30): Web element with id: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader' located by 'By.xpath: //div[contains(@class,'spinning-loader')]' is not present after '30' second(s)
+
+2019-03-10 18:42:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader' located by 'By.xpath: //div[contains(@class,'spinning-loader')]' is not present after '30' second(s)
+
+2019-03-10 18:42:51 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/iframe_seatBooking"), 30): null
+
+2019-03-10 18:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection", ["x":1]), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection' is clicked on
+
+2019-03-10 18:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection' is clicked on
+
+2019-03-10 18:42:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-03-10 18:42:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-10 18:42:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 18:42:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton' is clicked on
+
+2019-03-10 18:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton' is clicked on
+
+2019-03-10 18:42:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name' is visible
+
+2019-03-10 18:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name' is visible
+
+2019-03-10 18:42:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name"), FirstName): Text 'TestFn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name'
+
+2019-03-10 18:42:58 - [MESSAGE][PASSED] - Text 'TestFn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name'
+
+2019-03-10 18:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name"), LastName): Text 'TestLn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name'
+
+2019-03-10 18:42:58 - [MESSAGE][PASSED] - Text 'TestLn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name'
+
+2019-03-10 18:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email"), Email): Text 'testemail@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email'
+
+2019-03-10 18:42:59 - [MESSAGE][PASSED] - Text 'testemail@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email'
+
+2019-03-10 18:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email"), Email): Text 'testemail@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email'
+
+2019-03-10 18:43:00 - [MESSAGE][PASSED] - Text 'testemail@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email'
+
+2019-03-10 18:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone"), PhoneNumber): Text '1234567890' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone'
+
+2019-03-10 18:43:00 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone'
+
+2019-03-10 18:43:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), 10): Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number' successfully
+
+2019-03-10 18:43:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number' successfully
+
+2019-03-10 18:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), CCNumber): Text '1234567890123456' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number'
+
+2019-03-10 18:43:01 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number'
+
+2019-03-10 18:43:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)"), CCExpiry): Text '1221' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)'
+
+2019-03-10 18:43:01 - [MESSAGE][PASSED] - Text '1221' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)'
+
+2019-03-10 18:43:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV"), CVV): Text '6789' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV'
+
+2019-03-10 18:43:02 - [MESSAGE][PASSED] - Text '6789' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV'
+
+2019-03-10 18:43:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name"), CardHolderName): Text 'TestFn TestLn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name'
+
+2019-03-10 18:43:02 - [MESSAGE][PASSED] - Text 'TestFn TestLn' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name'
+
+2019-03-10 18:43:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-10 18:43:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-10 18:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING' is clicked on
+
+2019-03-10 18:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING' is clicked on
+
+2019-03-10 18:43:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), STOP_ON_FAILURE): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:06 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-03-10 18:43:06 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-03-10 18:43:06 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-03-10 18:43:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-03-10 18:43:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-10 18:43:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002-SearchandBookShow" classname="Test Cases/002-SearchandBookShow" status="PASSED">
+         <system-out><![CDATA[2019-03-10 18:43:09 - [TEST_CASE][PASSED] - Test Cases/002-SearchandBookShow: Test Cases/002-SearchandBookShow
+
+2019-03-10 18:43:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar' is visible
+
+2019-03-10 18:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar' is visible
+
+2019-03-10 18:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), ShowName): Text 'The Simon and Garfunkel Story' is set on object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:43:11 - [MESSAGE][PASSED] - Text 'The Simon and Garfunkel Story' is set on object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:43:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:43:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar'
+
+2019-03-10 18:43:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story' is visible
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story' is visible
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is visible
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is visible
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30): Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clickable
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clickable
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clicked on
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now' is clicked on
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-03-10 18:43:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-03-10 18:43:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is present
+
+2019-03-10 18:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is present
+
+2019-03-10 18:43:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30): Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' successfully
+
+2019-03-10 18:43:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' successfully
+
+2019-03-10 18:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is clicked on
+
+2019-03-10 18:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection' is clicked on
+
+2019-03-10 18:43:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-10 18:43:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 18:43:19 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader"), 30): Web element with id: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader' located by 'By.xpath: //div[contains(@class,'spinning-loader')]' is not present after '30' second(s)
+
+2019-03-10 18:43:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader' located by 'By.xpath: //div[contains(@class,'spinning-loader')]' is not present after '30' second(s)
+
+2019-03-10 18:43:19 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/iframe_seatBooking"), 30): null
+
+2019-03-10 18:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection", ["x":1]), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection' is clicked on
+
+2019-03-10 18:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/circle_SeatSelection' is clicked on
+
+2019-03-10 18:43:20 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-03-10 18:43:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-10 18:43:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 18:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton' is clicked on
+
+2019-03-10 18:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton' is clicked on
+
+2019-03-10 18:43:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name' is visible
+
+2019-03-10 18:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name' is visible
+
+2019-03-10 18:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name"), FirstName): Text 'TestFn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name'
+
+2019-03-10 18:43:24 - [MESSAGE][PASSED] - Text 'TestFn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name'
+
+2019-03-10 18:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name"), LastName): Text 'TestLn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name'
+
+2019-03-10 18:43:25 - [MESSAGE][PASSED] - Text 'TestLn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name'
+
+2019-03-10 18:43:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email"), Email): Text 'testemail2@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email'
+
+2019-03-10 18:43:26 - [MESSAGE][PASSED] - Text 'testemail2@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email'
+
+2019-03-10 18:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email"), Email): Text 'testemail2@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email'
+
+2019-03-10 18:43:26 - [MESSAGE][PASSED] - Text 'testemail2@mailinator.com' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email'
+
+2019-03-10 18:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone"), PhoneNumber): Text '1234567890' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone'
+
+2019-03-10 18:43:27 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone'
+
+2019-03-10 18:43:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), 10): Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number' successfully
+
+2019-03-10 18:43:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number' successfully
+
+2019-03-10 18:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), CCNumber): Text '1234567890123456' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number'
+
+2019-03-10 18:43:27 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number'
+
+2019-03-10 18:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)"), CCExpiry): Text '1221' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)'
+
+2019-03-10 18:43:27 - [MESSAGE][PASSED] - Text '1221' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)'
+
+2019-03-10 18:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV"), CVV): Text '6789' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV'
+
+2019-03-10 18:43:28 - [MESSAGE][PASSED] - Text '6789' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV'
+
+2019-03-10 18:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name"), CardHolderName): Text 'TestFn2 TestLn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name'
+
+2019-03-10 18:43:28 - [MESSAGE][PASSED] - Text 'TestFn2 TestLn2' is set on object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name'
+
+2019-03-10 18:43:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-10 18:43:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-10 18:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING"), STOP_ON_FAILURE): Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING' is clicked on
+
+2019-03-10 18:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_COMPLETE MY BOOKING' is clicked on
+
+2019-03-10 18:43:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), 30): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), STOP_ON_FAILURE): Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details' is visible
+
+2019-03-10 18:43:31 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-03-10 18:43:31 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-03-10 18:43:31 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-03-10 18:43:31 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-03-10 18:43:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-10 18:43:32 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/003-CloseBrowser" classname="Test Cases/003-CloseBrowser" status="PASSED">
+         <system-out><![CDATA[2019-03-10 18:43:34 - [TEST_CASE][PASSED] - Test Cases/003-CloseBrowser: Test Cases/003-CloseBrowser
+
+2019-03-10 18:43:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-10 18:43:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 18:43:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-10 18:43:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-10 18:42:26 - [TEST_SUITE][PASSED] - HeadOutAssignment: Test Cases/003-CloseBrowser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

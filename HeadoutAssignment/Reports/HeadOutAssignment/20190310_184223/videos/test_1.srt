@@ -1,0 +1,12 @@
+1
+00:00:00,741 --> 00:00:00,746
+1. openBrowser("")
+
+2
+00:00:04,747 --> 00:00:04,749
+5. maximizeWindow()
+
+3
+00:00:05,005 --> 00:00:05,007
+11. Open https://www.london-theater-tickets.com/
+

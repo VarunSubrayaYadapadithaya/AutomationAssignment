@@ -1,0 +1,148 @@
+1
+00:00:00,818 --> 00:00:00,821
+1. waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), 30)
+
+2
+00:00:00,986 --> 00:00:00,987
+7. Search for The Simon and Garfunkel Story 
+
+3
+00:00:02,085 --> 00:00:02,086
+11. sendKeys(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/input_SearchBar"), Keys.chord(ENTER))
+
+4
+00:00:02,321 --> 00:00:02,323
+15. delay(2)
+
+5
+00:00:04,365 --> 00:00:04,366
+19. waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/h1_The Simon and Garfunkel Story"), 30)
+
+6
+00:00:04,420 --> 00:00:04,421
+23. waitForElementVisible(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30)
+
+7
+00:00:04,492 --> 00:00:04,494
+27. waitForElementClickable(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), 30)
+
+8
+00:00:04,567 --> 00:00:04,568
+31. click(findTestObject("Page_Book London Theater Tickets  Get Exclusive Deals  Offers/div_Book Now"), STOP_ON_FAILURE)
+
+9
+00:00:04,713 --> 00:00:04,716
+35. switchToWindowIndex(1)
+
+10
+00:00:04,742 --> 00:00:04,743
+39. waitForElementPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30)
+
+11
+00:00:08,270 --> 00:00:08,272
+43. scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_DateSelection"), 30)
+
+12
+00:00:08,716 --> 00:00:08,718
+49. Pick a date
+
+13
+00:00:09,200 --> 00:00:09,202
+53. delay(3)
+
+14
+00:00:12,210 --> 00:00:12,211
+57. waitForElementNotPresent(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/div_SpinningLoader"), 30)
+
+15
+00:00:12,372 --> 00:00:12,374
+61. switchToFrame(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/iframe_seatBooking"), 30)
+
+16
+00:00:12,658 --> 00:00:12,659
+67. Pick a seat
+
+17
+00:00:13,013 --> 00:00:13,015
+71. switchToDefaultContent()
+
+18
+00:00:13,537 --> 00:00:13,538
+75. delay(3)
+
+19
+00:00:16,541 --> 00:00:16,542
+79. click(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_SeatSelectionNextButton"), STOP_ON_FAILURE)
+
+20
+00:00:16,783 --> 00:00:16,784
+85. Fill form details ( CC details are junk )
+
+21
+00:00:18,118 --> 00:00:18,120
+89. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_First Name"), FirstName)
+
+22
+00:00:18,551 --> 00:00:18,560
+93. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Last Name"), LastName)
+
+23
+00:00:19,215 --> 00:00:19,216
+97. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Email"), Email)
+
+24
+00:00:20,138 --> 00:00:20,140
+101. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Confirm Email"), Email)
+
+25
+00:00:20,875 --> 00:00:20,877
+105. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Phone"), PhoneNumber)
+
+26
+00:00:21,295 --> 00:00:21,296
+109. scrollToElement(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), 10)
+
+27
+00:00:21,349 --> 00:00:21,351
+113. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number"), CCNumber)
+
+28
+00:00:22,071 --> 00:00:22,072
+117. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Number_Expiry (MMYY)"), CCExpiry)
+
+29
+00:00:22,371 --> 00:00:22,372
+121. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_CVV"), CVV)
+
+30
+00:00:22,684 --> 00:00:22,686
+125. setText(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/input_Card Holder Name"), CardHolderName)
+
+31
+00:00:23,369 --> 00:00:23,370
+129. delay(2)
+
+32
+00:00:25,376 --> 00:00:25,377
+135. Click on next
+
+33
+00:00:25,866 --> 00:00:25,867
+139. waitForElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), 30)
+
+34
+00:00:26,977 --> 00:00:26,979
+143. verifyElementVisible(findTestObject("Page_The Simon and Garfunkel Story London  Best Prices on West End Tickets/span_Invalid card details"), STOP_ON_FAILURE)
+
+35
+00:00:27,026 --> 00:00:27,027
+147. closeWindowIndex(1)
+
+36
+00:00:27,140 --> 00:00:27,141
+151. switchToWindowIndex(0)
+
+37
+00:00:27,163 --> 00:00:27,165
+155. delay(1)
+
